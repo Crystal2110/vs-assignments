@@ -1,0 +1,532 @@
+/* desktop screen */
+
+.bg-img {
+  /* The image used */
+  background-image: url("image/1.jpg");
+
+  min-height:480px;
+
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1000px 400px;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+/* Position the navbar container inside the image */
+#container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  top: 150px;
+  height: 50px;
+  left: 50px;
+  margin: 20 40px;
+  
+  
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: none;
+}
+
+/* Navbar links */
+.topnav a {
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 86px;
+  text-decoration: none;
+  font-size: 40px;
+  
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+div.baking {
+  font-family: "Arial";
+  text-indent: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px; 
+}
+
+.baking {
+  background-color: lightgrey;
+  height:150px;
+  width:950px;
+  border-style: double;
+  padding: 0 20px;
+  position: relative;
+  bottom: 45px;
+  left: 245px;
+}
+
+
+/* FEATURES */
+.circle1 {
+  display:inline-block;
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("image/2.jpg");
+  border-radius: 80%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 250px;
+  top: 00px;
+}
+.circle1 a {
+  color: #8a7e7e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  top: 320px;
+  left: 30px;
+  
+}
+
+.circle1 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.circle2 {
+  display:inline-block;
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("image/7.jpg");
+  background-size: 300px 300px;
+  border-radius: 80%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 00px;
+  left: 300px;
+}
+.circle2 a {
+  color: #8a7e7e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  top: 320px;
+  left: 45px;
+  
+}
+
+.circle2 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.circle3 {
+  display:inline-block;
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("image/8.jpg");
+  background-size: 300px 300px;
+  border-radius: 80%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 00px;
+  left: 350px;
+  
+}
+.circle3 a {
+  color: #8a7e7e;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  top: 320px;
+  left: 65px;
+  
+}
+
+.circle3 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* large screen */
+
+@media only screen and (max-width: 1219px){
+
+  #container {
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    top: 150px;
+    height: 50px;
+    left: 100px;
+    margin: 20 40px; 
+  }
+  
+    
+  .baking {
+    background-color: lightgrey;
+    height:150px;
+    width:950px;
+    border-style: double;
+    padding: 0 20px;
+    position: relative;
+    bottom: 45px;
+    left: 85px;
+  }
+  
+  
+  /* FEATURES */
+  .circle1 {
+    display:inline-block;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("image/2.jpg");
+    border-radius: 80%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 85px;
+    top: 00px;
+  }
+
+  
+  .circle2 {
+    display:inline-block;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("image/7.jpg");
+    background-size: 300px 300px;
+    border-radius: 80%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 00px;
+    left: 130px;
+  }
+
+  
+  .circle3 {
+    display:inline-block;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("image/8.jpg");
+    background-size: 300px 300px;
+    border-radius: 80%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 00px;
+    left: 180px;
+    
+  }
+}
+ 
+  /* medium screen */
+
+  @media only screen and (max-width: 1003px){
+
+    #container {
+      position:relative;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      top: 150px;
+      height: 50px;
+      left: 20px;
+      margin: 20 40px;
+      
+      
+    }
+  
+    .baking {
+      background-color: lightgrey;
+      height:150px;
+      width:903px;
+      border-style: double;
+      padding: 0 20px;
+      position: relative;
+      bottom: 45px;
+      left: 0px;
+    }
+    
+    
+    /* FEATURES */
+    .circle1 {
+      display:inline-block;
+      /* Center and scale the image nicely */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-image: url("image/2.jpg");
+      border-radius: 80%;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left:00px;
+      top: 00px;
+    }
+  
+    
+    .circle2 {
+      display:inline-block;
+      /* Center and scale the image nicely */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-image: url("image/7.jpg");
+      background-size: 300px 300px;
+      border-radius: 80%;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      top: 00px;
+      left: 30px;
+    }
+  
+    
+    .circle3 {
+      display:inline-block;
+      /* Center and scale the image nicely */
+      background-position: top;
+      background-repeat: no-repeat;
+      background-image: url("image/8.jpg");
+      background-size: 300px 300px;
+      border-radius: 80%;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      top: 00px;
+      left: 60px;
+      
+    }
+  }
+    /* small screen */
+
+    @media only screen and (max-width: 925px){
+
+      #container {
+        position:relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        top: 150px;
+        height: 50px;
+        left: 20px;
+        margin: 20 40px;
+        
+        
+      }
+    
+      .baking {
+        background-color: lightgrey;
+        height: 180px;
+        width: 843px;
+        border-style: double;
+        padding: 0 20px;
+        position: relative;
+        bottom: 45px;
+        left: 0px;
+      }
+      
+      
+      /* FEATURES */
+      .circle1 {
+        display:inline-block;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url("image/2.jpg");
+        border-radius: 80%;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        left:00px;
+        top: 00px;
+      }
+    
+      
+      .circle2 {
+        display:inline-block;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url("image/7.jpg");
+        background-size: 300px 300px;
+        border-radius: 80%;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 00px;
+        left: 260px;
+      }
+    
+      
+      .circle3 {
+        display:inline-block;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url("image/8.jpg");
+        background-size: 300px 300px;
+        border-radius: 80%;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 100px;
+        left: 280px;
+        
+      }
+    }
+
+      /* mobile screen */
+
+    @media only screen and (max-width: 830px){
+
+      #container {
+        position:relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        top: 180px;
+        height: 50px;
+        left: 20px;
+      }
+
+      /* Navbar links */
+      .topnav a {
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 66px;
+        text-decoration: none;
+        font-size: 40px;
+  
+
+      }
+    
+      .baking {
+        background-color: lightgrey;
+        height:180px;
+        width:745px;
+        border-style: double;
+        padding: 0 20px;
+        position: relative;
+        bottom: 45px;
+        left: 0px;
+      }
+      
+      .circle2 {
+        display:inline-block;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url("image/7.jpg");
+        background-size: 300px 300px;
+        border-radius: 80%;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 00px;
+        left: 180px;
+      }
+    
+      
+      .circle3 {
+        display:inline-block;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url("image/8.jpg");
+        background-size: 300px 300px;
+        border-radius: 80%;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 100px;
+        left: 240px;
+        
+      }
+    }
+
+        /* small mobile screen */
+
+    @media only screen and (max-width: 710px){
+
+      #container {
+        position:relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        top: 180px;
+        height: 50px;
+        left: 20px;
+      }
+
+      /* Navbar links */
+      .topnav a {
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 26px;
+        text-decoration: none;
+        font-size: 40px;
+  
+
+      }
+      
+      .baking {
+        background-color: lightgrey;
+        height:210px;
+        width:620px;
+        border-style: double;
+        padding: 0 20px;
+        position: relative;
+        bottom: 45px;
+        left: 0px;
+      }
+      
+      .circle2 {
+        display:inline-block;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url("image/7.jpg");
+        background-size: 300px 300px;
+        border-radius: 80%;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 00px;
+        left: 70px;
+      }
+    
+      
+      .circle3 {
+        display:inline-block;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-image: url("image/8.jpg");
+        background-size: 300px 300px;
+        border-radius: 80%;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 100px;
+        left: 180px;
+      }
+    }
